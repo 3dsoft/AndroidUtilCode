@@ -1,7 +1,3 @@
-![logo][logo]
-
-[![auc][aucsvg]][auc] [![api][apisvg]][api] [![build][buildsvg]][build] [![Insight][insightsvg]][insight] [![License][licensesvg]][license]
-
 
 ## 다운로드
 
