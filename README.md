@@ -26,8 +26,8 @@ Sync Now를 클릭하면 끝!
 
         myip = (EditText) findViewById(R.id.etMyIP);
 
-        **Utils.init(this);**
-    }
+        Utils.init(this); // <-- 초기화
+    }
 
 
 각각의 자바 파일명을 이용해 필요한 기능을 구현하면 끝!
