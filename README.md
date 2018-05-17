@@ -22,7 +22,7 @@ Sync Now를 클릭하면 끝!
 
         myip = (EditText) findViewById(R.id.etMyIP);
 
-        Utils.init(this); // <-- 초기화
+        Utils.init(this); 
     }
 
 
