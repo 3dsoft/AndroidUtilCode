@@ -13,17 +13,16 @@ Sync Now를 클릭하면 끝!
 
 아래처럼 onCreate에서 초기화를 해준다.
 
+@Override
+protected void onCreate(Bundle savedInstanceState)
+{
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    myip = (EditText) findViewById(R.id.etMyIP);
 
-        myip = (EditText) findViewById(R.id.etMyIP);
-
-        Utils.init(this); 
-    }
+    Utils.init(this); // <-- 초기화
+}
 
 
 각각의 자바 파일명을 이용해 필요한 기능을 구현하면 끝!
