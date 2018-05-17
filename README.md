@@ -14,14 +14,21 @@ Sync Now를 클릭하면 끝!
 아래처럼 onCreate에서 초기화를 해준다.
 
 @Override
+
 protected void onCreate(Bundle savedInstanceState)
+
 {
+
     super.onCreate(savedInstanceState);
+
     setContentView(R.layout.activity_main);
+
 
     myip = (EditText) findViewById(R.id.etMyIP);
 
+
     Utils.init(this); // <-- 초기화
+
 }
 
 
